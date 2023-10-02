@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+.form{
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.user-input{
+  border-radius: 4px;
+  padding: 4px;
+  
+  border:1px solid grey;
+}
+.labels{
+  text-align: start;
+  font-weight: bold;
+}
+.checkers{
+  all: unset;
+}
+
+.check-box{
+  display: flex;
+}
+.push-notif{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.radios{
+  display:  flex;
+  gap: 1.5rem;
+  font-weight: bold;
+  
+}
+.save-btn{
+  all: unset;
+  color: white;
+  background: rgb(23, 137, 213);
+  /* padding-top: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  max-width: 100px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.save-btn:hover{
+  
+  background: rgb(83, 174, 234);
+}
+.checky{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
+}
